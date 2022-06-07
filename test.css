@@ -1,4 +1,22 @@
 body { 
     margin: 0;
     padding: 0;
+    background-color: #555555;
 }
+
+.header { 
+ height: 600px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
+}
+    
+.div {
+    border-radius: 10px;
+    background-color: rgb(255, 244, 244);
+    height: 500px;
+    width: 500px;
+}
+
+
