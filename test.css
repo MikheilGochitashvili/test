@@ -64,6 +64,22 @@ body {
     transition: 0.3s;
 }
 
+.section-red { 
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.section-orange { 
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.section-cyan { 
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.section-blue { 
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
 .article-image-wrapper { 
     position: absolute;
     bottom: 33px;
@@ -99,4 +115,25 @@ body {
         display: flex;
         flex-direction: column;
     }
+}
+
+@media (max-width: 390px) { 
+    .section { 
+        width: 325px;
+        height: 254px;
+    }
+
+    .span-top { 
+        width: 325px;
+        text-align: center;
+    }
+
+    .span-bottom { 
+        width: 335px;
+    }
+
+    .article-wrapper { 
+        padding-top: 20px;
+    }
+
 }
